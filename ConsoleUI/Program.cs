@@ -54,7 +54,7 @@ namespace ConsoleUI
 
             List<string> liness = File.ReadAllLines(filePAth).ToList();
 
-            liness.Add("1, Sure, your, mom ");
+            liness.Add("");
 
             File.WriteAllLines(filePAth, liness);
 
@@ -62,7 +62,30 @@ namespace ConsoleUI
             {
                 Console.WriteLine(line);
             }
-            Console.ReadLine();
+            Console.WriteLine();
+
+
+            int 1
+            bool confirmed = false;
+            string key;
+            string Password;
+            string Email;
+            string Name;
+
+            Console.Write("Hello");
+            Console.Write("\nWhat do you want to order?");
+            Name = Console.ReadLine();
+            Console.Write("\nWhat's your E-Mail ? ");
+            Email = Console.ReadLine();
+            Console.Write("Please create a password");
+            Password = Console.ReadLine();
+
+
+
+
+
+
+
 
 
         }
